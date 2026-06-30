@@ -32,7 +32,7 @@
   ownership of the <filename class="directory">$LFS/*</filename> directories to
   user <systemitem class="username">root</systemitem> by running the following
   command:</para>
-
+<screen><userinput>exit</userinput></screen>
 <screen><userinput>chown --from &lfs-username; -R root:root $LFS/{usr,lib64,var,etc,tools}</userinput></screen>
 
 </sect1>

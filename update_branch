@@ -1,0 +1,8 @@
+  cd ~/Desktop/coding-projects/lfs-book-fork
+  git switch -c ml-VERSION-work ml-VERSION
+  # edit files
+  git add <files>
+  git commit -m "Describe change"
+  git push origin HEAD:refs/heads/ml-VERSION
+  git ls-remote --heads origin ml-VERSION
+

@@ -54,7 +54,7 @@
     and fix 5 security vulnerabilities found after the glibc-2.43
     release:</para>
 
-<screen><userinput remap="pre">patch -Np1 -i ../&glibc-upstream-patch;</userinput></screen>
+<!--screen><userinput remap="pre">patch -Np1 -i ../&glibc-upstream-patch;</userinput></screen-->
 
     <para>The Glibc documentation recommends building Glibc
     in a dedicated build directory:</para>
